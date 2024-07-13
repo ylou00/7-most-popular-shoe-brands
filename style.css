@@ -1,11 +1,6 @@
-
 body{
     background-color: #735184 ;
-    background-image: linear-gradient(#9D43D9,
-#5F4073,
-#4D208C,
-#070C26,
-#45A9BF);
+    background-image: linear-gradient(#9D43D9, #5F4073, #4D208C, #45A9BF);
     margin: 0px;
 }
 
@@ -16,6 +11,7 @@ main img{
 p {
     font-size: 20px;
 }
+
 h1{
     margin-top: 0px;
     background-color: black;
@@ -32,36 +28,31 @@ h2 {
 
 }
 
-.name1 p{background-image: linear-gradient(#9D43D9,
-#5F4073,
-#4D208C,
-
-#45A9BF);
-color: yellow ;
+.name1 p{
+    background-image: linear-gradient(#9D43D9, #5F4073, #4D208C, #45A9BF);
+    color: yellow ;
 }
 .name2{
-    background-image: linear-gradient(#F7879A,#FF0000,#FFFFFF
-    );
+    background-image: linear-gradient(#F7879A,#FFFFFF,#FF0000);
     color:black;
 }
 .name3{
-    background-image: linear-gradient(#y);
-   color: rgb(64, 0, 255);
+    background-image: linear-gradient(#A69FA3, #3054BF, #4E7CD9);
+    color: #F29F05;
 }
 .name4{
-   background-image: linear-gradient();
-   color: darkorange;
+    background-image: linear-gradient();
+    color: darkorange;
 }
 .name5{
-   background-image: linear-gradient(); 
-   background-color: black;
+    background-image: linear-gradient(#03fcd3,#117d6b,#296cab); 
 }
 .name6{
-     background-image: linear-gradient();
-color: rgb(204, 50, 163);
+    background-image: linear-gradient();
+    color: rgb(204, 50, 163);
 }
 .name7{
-     background-image: linear-gradient();
+    background-image: linear-gradient();
     color: white;
 }
 
@@ -76,7 +67,7 @@ section h2{
 footer{
     position: relative;
     padding: 50px 50px 20px;
-    background-color: #ffc635;
+    background-color: #3593ff;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -90,6 +81,14 @@ footer a {
     padding: 0px 5px;
     text-decoration: none;
 }
+footer img {
+    border-radius: 50%;
+}
+footer img:hover {
+    transform: scale(1.2);
+}
+
+
 nav{
     background-color: #ffc635;
     display: flex;
